@@ -1,5 +1,3 @@
-from os import write
-
 username = input("Create username: ")
 password = input("Create password: ")
 
