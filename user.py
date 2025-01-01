@@ -1,9 +1,19 @@
-username = input("Create username: ")
-password = input("Create password: ")
+import os
 
-def create_user(user, pas):
-    with open("user_register.txt", "w") as file:
-        user_info = file.write(f"Username: {username}\n")
-        user_password = file.write(f"Password: {password}")
+FILENAME = "users.txt"
 
-create_user(username, password)
+class User:
+    def __init__(self, username, password,):
+        self.username = username
+        self.password = password
+
+    def load_users(self):
+        pass
+
+
+    def register(self):
+        pass
+
+
+    def login(self):
+        pass
